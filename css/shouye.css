@@ -1,0 +1,18 @@
+#banner {
+  height: 2612px;
+  width: 1200px;
+  background: red;
+  margin: 0 auto;
+}
+#banner .pic {
+  width: 1200px;
+  height: 420px;
+  position: relative;
+}
+#banner .pic img {
+  width: 1200px;
+  height: 420px;
+  float: left;
+}
+
+/*# sourceMappingURL=shouye.css.map */

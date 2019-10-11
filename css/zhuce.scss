@@ -1,0 +1,371 @@
+// 预设样式
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+input{
+    outline: none;
+}
+html{
+    background:url("../img/bg.jpg") no-repeat center ;
+    background-size:100% 100%;
+    box-sizing:border-box;
+    min-height:100%;
+}
+// 登录框
+.deng{
+    width: 360px;
+    margin: 50px auto;
+    box-shadow: 0 2px 6px #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px 50px;
+    //上半部分登录注册切换
+    .fontbox{
+        position: relative;
+        width: 280px;
+        height: 35px;
+        margin: 0 auto;
+        .huadong{
+            position: absolute;
+            top: 0;
+            left: 10px;
+            z-index: 0;
+            width: 100px;
+            height: 35px;
+            border-bottom: 1px solid #00AAEA;
+        }
+        .dl{
+            position: relative;
+            z-index: 1;
+            float: left;
+            display: block;
+            width: 140px;
+            line-height: 35px;
+            text-align: center;
+            a{
+                color:#393B3D;
+            }
+        }
+        .zc{
+            position: relative;
+            z-index: 1;
+            float: left;
+            display: block;
+            width: 140px;
+            line-height: 35px;
+            text-align: center;
+            a{
+                color:#00AAEA;
+            }
+        }
+    }
+    // 登录input
+    .dlcontent{
+        width:360px;
+        height: 268.67px;
+        padding-top:20px;
+        font-size:12px;
+        display:none;
+        .name{
+            width: 348px;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 20px auto;
+            font-size:12px;
+        }
+        .mima{
+            width: 348px;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 0 auto;
+            font-size:12px;
+        }
+        p{
+            width: 360px;
+            height: 19px;
+            padding-top:15px;
+            label{
+                float:left;
+                span{
+                    font-size:12px;
+                    padding-left:5px;
+                    color:#222;
+                }
+            }
+            a{
+                float:right;
+                font-size:12px;
+                color:#222;
+                margin-top:5px;
+                &:hover{
+                    border-bottom:0.5px solid #222;
+                }
+            }
+
+        }
+        .tijiao{
+            width: 100%;
+            height:40px;
+            border:none;
+            background-color:#00AAEA;
+            cursor: pointer;
+            color:#fff;
+            padding:8px;
+            margin-top:20px;
+        }
+        a img{
+            height:30px;
+            width:30px;
+            float:left;
+            margin-top:20px;
+        }
+        a .left{
+            margin-left:130px;
+        }
+    }
+    // 注册部分
+    .zccontent{
+        width:360px;
+        height:463px;
+        padding-top:20px;
+        font-size:12px;
+        // display:none;
+        .number{
+            width: 348px;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 20px auto;
+            font-size:12px;
+        }
+        .check{
+            width: 50%;
+            margin-right: 5px;
+            float: left;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 0 auto;
+            font-size:12px;
+        }
+        .ran{
+            vertical-align:middle;
+            padding:0 8px;
+            margin-top:-8px;
+        }
+        .checka{
+            width: 50%;
+            margin-right: 5px;
+            float: left;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 20px auto;
+            font-size:12px;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            background-color: #00AAEA;
+            border: none;
+            color: #fff;
+            margin-left: 6px;
+            margin-top:20px;
+            cursor: pointer;
+            outline:0;
+        }
+        .nameb{
+            width: 348px;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 0 auto;
+            font-size:12px;
+        }
+        .mimab{
+            width: 348px;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 20px auto;
+            font-size:12px;
+        }
+        .mimaba{
+            width: 348px;
+            height: 38px;
+            border: 1px solid #E2E2E2;
+            padding-left: 10px;
+            margin: 0 auto;
+            font-size:12px;
+        }
+        .tijiaob{
+            width: 100%;
+            height: 40px;
+            background-color:#00AAEA;
+            color:#fff;
+            border:none;
+            cursor: pointer;
+            padding:8px;
+            margin-top:20px;
+        }
+        a img{
+            height:30px;
+            width:30px;
+            float:left;
+            margin-top:20px;
+        }
+        a .left{
+            margin-left:130px;
+        }
+    }
+}
+// 模态窗
+// 背景蒙层
+#mask{
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    display:none;
+}
+#pop{
+    width: 478px;
+    height: 269px;
+    background:#fff;
+    margin-left:-256px;
+    padding:17px;
+    border-radius:5px;
+    position:fixed;
+    top:30%;
+    left:50%;
+    z-index:1000;
+    display:none;
+    .error{
+        width:100%;
+        height:100px;
+        background:url("../img/error.png") no-repeat center;
+        background-size:120px 100px;
+    }
+    h2{
+        color: #575757;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        // position: relative;
+        margin: 25px 0;
+        padding: 0;
+        line-height: 25px;
+    }
+    .zhengze{
+        height:50px;
+        width: 100%;
+        background:#fff;
+        text-align:center;
+        line-height:normal;
+        color:#797979;
+    }
+    button{
+        width:88.56px;
+        height: 39.33px;
+        background-color: rgb(174, 222, 244);
+        color:white;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-left:195px;
+        cursor: pointer;
+        border:0;
+        outline:none;
+    }
+}
+#success{
+        width: 478px;
+        height: 269px;
+        background:#fff;
+        margin-left:-256px;
+        padding:17px;
+        border-radius:5px;
+        position:fixed;
+        top:30%;
+        left:50%;
+        z-index:1000;
+        display:none;
+        .true{
+            width:100%;
+            height:100px;
+            background:url("../img/true.png") no-repeat center;
+            background-size:100px 100px;
+        }
+        h2{
+            color: #575757;
+            font-size: 30px;
+            text-align: center;
+            font-weight: 600;
+            margin: 25px 0;
+            padding: 0;
+            line-height: 25px;
+        }
+        button{
+            width:88.56px;
+            height: 39.33px;
+            background-color: rgb(174, 222, 244);
+            color:white;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-left:195px;
+            cursor: pointer;
+            border:0;
+            outline:none;
+        }   
+}
+#go{
+    width: 478px;
+    height: 269px;
+    background:#fff;
+    margin-left:-256px;
+    padding:17px;
+    border-radius:5px;
+    position:fixed;
+    top:30%;
+    left:50%;
+    z-index:1000;
+    display:none;
+    .goa{
+        width:100%;
+        height:100px;
+        background:url("../img/error.png") no-repeat center;
+        background-size:100px 100px;
+    }
+    h2{
+        color: #575757;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        margin: 25px 0;
+        padding: 0;
+        line-height: 25px;
+    }
+    button{
+        width:88.56px;
+        height: 39.33px;
+        background-color: rgb(174, 222, 244);
+        color:white;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-left:195px;
+        cursor: pointer;
+        border:0;
+        outline:none;
+    }   
+}

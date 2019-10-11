@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+html {
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+.deng {
+  width: 360px;
+  margin: 50px auto;
+  box-shadow: 0 2px 6px #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 25px 50px;
+}
+.deng .fontbox {
+  position: relative;
+  width: 280px;
+  height: 35px;
+  margin: 0 auto;
+}
+.deng .fontbox .huadong {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  z-index: 0;
+  width: 100px;
+  height: 35px;
+  border-bottom: 1px solid #00AAEA;
+}
+.deng .fontbox .dl {
+  position: relative;
+  z-index: 1;
+  float: left;
+  display: block;
+  width: 140px;
+  line-height: 35px;
+  text-align: center;
+}
+.deng .fontbox .dl a {
+  color: #393B3D;
+}
+.deng .fontbox .zc {
+  position: relative;
+  z-index: 1;
+  float: left;
+  display: block;
+  width: 140px;
+  line-height: 35px;
+  text-align: center;
+}
+.deng .fontbox .zc a {
+  color: #00AAEA;
+}
+.deng .dlcontent {
+  width: 360px;
+  height: 268.67px;
+  padding-top: 20px;
+  font-size: 12px;
+  display: none;
+}
+.deng .dlcontent .name {
+  width: 348px;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+.deng .dlcontent .mima {
+  width: 348px;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.deng .dlcontent p {
+  width: 360px;
+  height: 19px;
+  padding-top: 15px;
+}
+.deng .dlcontent p label {
+  float: left;
+}
+.deng .dlcontent p label span {
+  font-size: 12px;
+  padding-left: 5px;
+  color: #222;
+}
+.deng .dlcontent p a {
+  float: right;
+  font-size: 12px;
+  color: #222;
+  margin-top: 5px;
+}
+.deng .dlcontent p a:hover {
+  border-bottom: 0.5px solid #222;
+}
+.deng .dlcontent .tijiao {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #00AAEA;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px;
+  margin-top: 20px;
+}
+.deng .dlcontent a img {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-top: 20px;
+}
+.deng .dlcontent a .left {
+  margin-left: 130px;
+}
+.deng .zccontent {
+  width: 360px;
+  height: 463px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.deng .zccontent .number {
+  width: 348px;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+.deng .zccontent .check {
+  width: 50%;
+  margin-right: 5px;
+  float: left;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.deng .zccontent .ran {
+  vertical-align: middle;
+  padding: 0 8px;
+  margin-top: -8px;
+}
+.deng .zccontent .checka {
+  width: 50%;
+  margin-right: 5px;
+  float: left;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+.deng .zccontent button {
+  width: 150px;
+  height: 40px;
+  background-color: #00AAEA;
+  border: none;
+  color: #fff;
+  margin-left: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: 0;
+}
+.deng .zccontent .nameb {
+  width: 348px;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.deng .zccontent .mimab {
+  width: 348px;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+.deng .zccontent .mimaba {
+  width: 348px;
+  height: 38px;
+  border: 1px solid #E2E2E2;
+  padding-left: 10px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.deng .zccontent .tijiaob {
+  width: 100%;
+  height: 40px;
+  background-color: #00AAEA;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 20px;
+}
+.deng .zccontent a img {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-top: 20px;
+}
+.deng .zccontent a .left {
+  margin-left: 130px;
+}
+
+#mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+
+#pop {
+  width: 478px;
+  height: 269px;
+  background: #fff;
+  margin-left: -256px;
+  padding: 17px;
+  border-radius: 5px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  z-index: 1000;
+  display: none;
+}
+#pop .error {
+  width: 100%;
+  height: 100px;
+  background: url("../img/error.png") no-repeat center;
+  background-size: 120px 100px;
+}
+#pop h2 {
+  color: #575757;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin: 25px 0;
+  padding: 0;
+  line-height: 25px;
+}
+#pop .zhengze {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  line-height: normal;
+  color: #797979;
+}
+#pop button {
+  width: 88.56px;
+  height: 39.33px;
+  background-color: #aedef4;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-left: 195px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+#success {
+  width: 478px;
+  height: 269px;
+  background: #fff;
+  margin-left: -256px;
+  padding: 17px;
+  border-radius: 5px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  z-index: 1000;
+  display: none;
+}
+#success .true {
+  width: 100%;
+  height: 100px;
+  background: url("../img/true.png") no-repeat center;
+  background-size: 100px 100px;
+}
+#success h2 {
+  color: #575757;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin: 25px 0;
+  padding: 0;
+  line-height: 25px;
+}
+#success button {
+  width: 88.56px;
+  height: 39.33px;
+  background-color: #aedef4;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-left: 195px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+#go {
+  width: 478px;
+  height: 269px;
+  background: #fff;
+  margin-left: -256px;
+  padding: 17px;
+  border-radius: 5px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  z-index: 1000;
+  display: none;
+}
+#go .goa {
+  width: 100%;
+  height: 100px;
+  background: url("../img/error.png") no-repeat center;
+  background-size: 100px 100px;
+}
+#go h2 {
+  color: #575757;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin: 25px 0;
+  padding: 0;
+  line-height: 25px;
+}
+#go button {
+  width: 88.56px;
+  height: 39.33px;
+  background-color: #aedef4;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-left: 195px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+/*# sourceMappingURL=zhuce.css.map */

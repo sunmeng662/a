@@ -1,0 +1,24 @@
+$(function(){
+    $(".onea").mouseenter(function(){
+        $(".seconda").css("display","block");
+    })
+    $(".onea").mouseleave(function(){
+        $(".seconda").css("display","none");
+    });
+});
+$(function(){
+    $(".oneb").mouseenter(function(){
+        $(".secondb").css("display","block");
+    })
+    $(".oneb").mouseleave(function(){
+        $(".secondb").css("display","none");
+    });
+});
+$(function(){
+    $(".onec").mouseenter(function(){
+        $(".secondc").css("display","block");
+    })
+    $(".onec").mouseleave(function(){
+        $(".secondc").css("display","none");
+    });
+});

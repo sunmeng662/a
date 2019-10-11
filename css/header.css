@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 60px;
+  background: #393b3d;
+}
+header .logo {
+  float: left;
+  width: 246px;
+  height: 60px;
+  margin-right: 20px;
+}
+header > ul > li > a {
+  color: #fff;
+  display: inline-block;
+  opacity: 0.5;
+  line-height: 60px;
+  font-size: 13px;
+}
+header > ul > li > a:hover {
+  opacity: 1;
+}
+header > ul > li {
+  position: relative;
+  float: left;
+  padding: 0 20px;
+}
+header .seconda {
+  height: 287px;
+  width: 92px;
+  background-color: #393b3d;
+  position: absolute;
+  top: 60px;
+  left: -14px;
+  z-index: 2;
+  display: none;
+}
+header .seconda a {
+  color: #fff;
+  height: 40px;
+  width: 92px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #434446;
+  line-height: 40px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+header .seconda a:hover {
+  opacity: 1;
+}
+header .secondb {
+  height: 164px;
+  width: 92px;
+  background-color: #393b3d;
+  position: absolute;
+  top: 60px;
+  left: -12px;
+  z-index: 2;
+  display: none;
+}
+header .secondb a {
+  color: #fff;
+  height: 40px;
+  width: 92px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #434446;
+  line-height: 40px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+header .secondb a:hover {
+  opacity: 1;
+}
+header .secondc {
+  height: 164px;
+  width: 92px;
+  background-color: #393b3d;
+  position: absolute;
+  top: 60px;
+  left: -14px;
+  z-index: 2;
+  display: none;
+}
+header .secondc a {
+  color: #fff;
+  height: 40px;
+  width: 92px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #434446;
+  line-height: 40px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+header .secondc a:hover {
+  opacity: 1;
+}
+header .denglu, header .zhuce {
+  float: right;
+  color: #fff;
+  font-size: 13px;
+  line-height: 60px;
+  padding: 0 20px;
+}
+header .zhuce {
+  margin-right: 20px;
+}
+header .search {
+  width: 18.94px;
+  height: 20px;
+  float: right;
+  cursor: pointer;
+  padding: 22px 20px;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,129 @@
+// 预设样式
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+// 头部
+header{
+    height: 60px;
+    background: #393b3d;
+    .logo{
+        float:left;
+        width: 246px;
+        height: 60px;
+        margin-right:20px;
+    }
+    // 一级菜单
+    &>ul>li>a{
+        color:#fff;
+        display:inline-block;
+        opacity:0.5;
+        line-height:60px;
+        font-size:13px;
+        &:hover{
+            opacity:1;
+        }
+    }
+    &>ul>li{
+        position: relative;
+        float:left;
+        padding:0 20px;
+    }
+    // 二级菜单
+    .seconda {
+        height:287px;
+        width:92px;
+        background-color: #393b3d;
+        position: absolute;
+        top:60px;
+        left:-14px;
+        z-index:2;
+        display:none;
+        a {
+            color:#fff;
+            height:40px;
+            width:92px;
+            text-align:center;
+            display:inline-block;
+            border-bottom:1px solid #434446;
+            line-height:40px;
+            font-size:13px;
+            opacity: 0.5;
+            &:hover{
+                opacity:1;
+            }
+        }
+    }
+    .secondb {
+        height:164px;
+        width:92px;
+        background-color: #393b3d;
+        position: absolute;
+        top:60px;
+        left:-12px;
+        z-index:2;
+        display:none;
+        a{
+            color:#fff;
+            height:40px;
+            width:92px;
+            text-align:center;
+            display:inline-block;
+            border-bottom:1px solid #434446;
+            line-height:40px;
+            font-size:13px;
+            opacity:0.5;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    .secondc {
+        height:164px;
+        width:92px;
+        background-color: #393b3d;
+        position: absolute;
+        top:60px;
+        left:-14px;
+        z-index:2;
+        display:none;
+        a{
+            color:#fff;
+            height:40px;
+            width:92px;
+            text-align:center;
+            display:inline-block;
+            border-bottom:1px solid #434446;
+            line-height:40px;
+            font-size:13px;
+            opacity:0.5;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    // 右半部分
+    .denglu,.zhuce{
+        float:right;
+        color:#fff;
+        font-size:13px;
+        line-height:60px;
+        padding:0 20px;
+    }
+    .zhuce{
+        margin-right:20px;
+    }
+    .search{
+        width:18.94px;
+        height:20px;
+        float:right;
+        cursor: pointer;
+        padding:22px 20px;
+    }
+}

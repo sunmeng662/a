@@ -1,0 +1,17 @@
+#banner{
+    height: 2612px;
+    width: 1200px;
+    background:red;
+    margin:0 auto;
+        .pic{
+            width:1200px;
+            height:420px;
+            position: relative;
+            img{
+                width:1200px;
+                height:420px;
+                float:left;
+                // position:absolute;
+            }
+        }
+}
